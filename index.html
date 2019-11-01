@@ -8,10 +8,34 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Bootstrap</title>
   </head>
   <body>
-    <div class="container"><h1>Hello, world!</h1></div>
+
+    <header>
+
+      <div class="container-fluid p-3 bg-dark text-light">
+        <div class="row" style="width: 80%; margin: auto;">
+          <div class="col">
+            <div class="col"><h1 class="text-warning">К и н о  М о н с т р</h1></div>
+            <div class="col"><p class="p-1" style="font-size:20px;">Кино - наша страсть!</p></div>
+          </div>
+
+          <div class="col">
+            <nav class="nav nav-pills flex-column flex-sm-row align-items-end justify-content-end" style="height: 100%;">
+              <a class="flex-sm-fill text-sm-center nav-link active btn-info text-light" href="#">Главная</a>
+              <a class="flex-sm-fill text-sm-center nav-link text-light" href="#">Фильмы</a>
+              <a class="flex-sm-fill text-sm-center nav-link text-light" href="#">Сериалы</a>
+              <a class="flex-sm-fill text-sm-center nav-link text-light" href="#">Рейтинг фильмов</a>
+              <a class="flex-sm-fill text-sm-center nav-link text-light" href="#">Контакты</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
