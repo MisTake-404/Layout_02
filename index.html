@@ -1,46 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Bootstrap</title>
+    <!-- My style -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
   </head>
   <body>
+    <div class="container-fluid" style="border-radius: 0;">
+  		<div class="row">
 
-    <header>
+  			<nav role="navigation" class="navbar navbar-inverse">
+  				<div class="container">
 
-      <div class="container-fluid p-3 bg-dark text-light">
-        <div class="row" style="width: 80%; margin: auto;">
-          <div class="col">
-            <div class="col"><h1 class="text-warning">К и н о  М о н с т р</h1></div>
-            <div class="col"><p class="p-1" style="font-size:20px;">Кино - наша страсть!</p></div>
-          </div>
+  					<div class="navbar-header header">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h1><a href="#">КиноМонстр</a></h1>
+                    <p>Кино - наша страсть!</p>
+                  </div>
+                </div>
+              </div>
 
-          <div class="col">
-            <nav class="nav nav-pills flex-column flex-sm-row align-items-end justify-content-end" style="height: 100%;">
-              <a class="flex-sm-fill text-sm-center nav-link active btn-info text-light" href="#">Главная</a>
-              <a class="flex-sm-fill text-sm-center nav-link text-light" href="#">Фильмы</a>
-              <a class="flex-sm-fill text-sm-center nav-link text-light" href="#">Сериалы</a>
-              <a class="flex-sm-fill text-sm-center nav-link text-light" href="#">Рейтинг фильмов</a>
-              <a class="flex-sm-fill text-sm-center nav-link text-light" href="#">Контакты</a>
-            </nav>
-          </div>
-        </div>
-      </div>
+              <!-- У кнопки прописывается data-target="#navbarCollapse" для контенера id="navbarCollapse" чтобы при нажатии на кнопку меню раскрывалось -->
+              <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+        						<span class="sr-only">Toggle navigation</span>
+        						<span class="icon-bar"></span>
+        						<span class="icon-bar"></span>
+        						<span class="icon-bar"></span>
+  						</button>
 
-    </header>
+  					</div>
 
+  					<div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
+  						<ul class="nav nav-pills">
+  							<li class="active"> <a href="#">Главная</a> </li>
+  							<li> <a href="#">Фильмы</a> </li>
+  							<li> <a href="#">Сериалы</a> </li>
+  							<li> <a href="#">Рейтинг фильмов</a> </li>
+  							<li> <a href="#">Контакты</a> </li>
+  						</ul>
+  					</div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  				</div>
+  			</nav>
+
+  		</div>
+  	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
   </body>
 </html>
