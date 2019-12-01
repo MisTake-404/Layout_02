@@ -88,6 +88,27 @@ html, body {
 }
 
 
+.list-group-item-warning {
+	color: #8a6d3b;
+	background-color: #f9f9f9;
+}
+.badge {
+	background-color: #000000;
+}
+.info-block {
+	font-size: 120%;
+}
+.info-block .badge {
+	font-size: 80%;
+}
+.info-block span{
+	margin-right: 3%;
+}
+textarea.form-control {
+	height: 200px;
+}
+
+
 footer {
 	color: #666;
 	background: #222;
